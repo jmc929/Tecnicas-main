@@ -1,0 +1,137 @@
+.mi-fieldset { 
+    border: none; 
+    padding: 0;
+  }  
+body {
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-abstracto-negro-azul_1340-17010.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.no-linea{
+    text-decoration: none;
+    color: black;
+}
+#principal{
+    position: relative;
+    float: left;
+    height: 715px;
+    width: 65%;
+    right: 3px;
+}
+#izquierda{
+    float: left;
+    height: 33%;
+    width: 32%;
+    position: relative;
+    float: left;
+    background-color: aliceblue ;
+    border-radius: 50px;
+    right: 40px;
+    top: 15px;
+}
+#abajo{
+    float: left;
+    height: 300px;
+    width: 32%;
+    position: relative;
+    float: left;
+    background-color: aliceblue;
+    border-radius: 50px;
+    right: 40px;
+    top: 40px;
+}
+.titulo1{
+    position: relative;
+    font-size: 65px;
+    color: white;
+    left: 280px;
+}
+.titulo{
+    text-align: center;
+}
+.titulo2{
+    position: relative;
+    left: 100px;
+    font-size: 39px;
+}
+#secundario{
+    position: absolute;
+    background-color: whitesmoke;
+    border-radius: 50px ;
+    height: 530px;
+    right: 10px;
+    left: 220px;
+    top: 150px;
+    width: 600px;
+}
+.historial{
+    position: relative;
+    left: 10px;
+    font-size: 25px;
+}
+.crear{
+    position: relative;
+    margin-top: 12px;
+    left: 70px;
+    width: 290px;
+    height: 25px;
+}
+.crear1{
+    display: block;
+    margin: 10px auto 0;
+    height: 35px;
+    width: 150px;
+    border-radius: 50px;
+}
+#usuario-boton{
+    position: relative;
+    left: 50px;
+    width: 500px;
+    height: 30px;
+}
+#usuario{
+    position: relative;
+    left: 50px;
+    font-size: 30px;
+}
+.reactivar{
+    position: relative;
+    margin-top: 12px;
+    left: 70px;
+    width: 290px;
+    height: 25px;
+}
+.reactivar1{
+    display: block;
+    margin: 10px auto 0;
+    height: 35px;
+    width: 180px;
+    border-radius: 50px;
+ }
+ #contraseña-boton{
+    position: relative;
+    left: 50px;
+    width: 500px;
+    height: 30px;
+    top: 80px;
+}
+#contraseña{
+    position: relative;
+    left: 50px;
+    font-size: 30px;
+    top: 80px;
+}
+.iniciar{
+    display: block;
+    margin: 150px auto 0;
+    height: 45px;
+    width: 300px;
+    font-size: 30px;
+    border-radius: 100px;
+    background-color: white ;
+}
