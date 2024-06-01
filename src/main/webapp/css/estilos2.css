@@ -1,0 +1,158 @@
+body {
+    background-image: url("https://img.freepik.com/vector-premium/fondo-presentacion-abstracto-blanco-azul-moderno-concepto-corporativo_181182-17153.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+  }
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.no-linea{
+    text-decoration: none;
+    color: black;
+}
+#principal{
+    position: relative;
+    float: left;
+    height: 725px;
+    width: 68%;
+    right: 3px;
+}
+#izquierda{
+    float: left;
+    height: 359.5px;
+    width: 32%;
+    position: relative;
+    float: left;
+    background-color: rgb(158, 159, 165);
+    left: 3px;
+    top: 40px;
+    border-radius: 50px;
+}
+#abajo{
+    float: left;
+    height: 250px;
+    width: 32%;
+    position: relative;
+    float: left;
+    background-color: rgb(158, 159, 165);
+    left: 3px;
+    top: 85px;
+    border-radius: 50px;
+}
+.titulo1{
+    text-align: center;
+    font-size: 65px;
+}
+.titulo{
+    text-align: center;
+}
+.titulo2{
+    position: relative;
+    left: 90px;
+    font-size: 43px;
+}
+#foto{
+    position: relative;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    float: left;
+    top: 15px;
+    left: 80px;
+}
+#secundario{
+    position: absolute;
+    background-color: rgb(245, 245, 245);
+    height: 540px;
+    right: 10px;
+    left: 10px;
+    top: 150px;
+    float: left;
+    border-radius: 50px;
+}
+.historial{
+    position: relative;
+    left: 10px;
+    font-size: 25px;
+}
+.opciones{
+    position: relative;
+    margin-top: 15px;
+    left: 100px;
+    width: 290px;
+    height: 30px;
+    border-radius: 20px;
+}
+#consultar{
+    position: relative;
+    left: 300px;
+    width: 350px;
+    height: 45px;
+    font-size: 20px;
+
+}   
+#consultar-boton{
+    position: relative;
+    left: 370px;
+    width: 220px;
+    height: 35px;
+    font-size: 20px;
+    top: 30px;
+}
+#valor-transferir{
+    width: 390px;
+    height: 38px;
+    position: relative;
+    top: 100px;
+    left: 80px;
+}
+#transferir{
+    width: 240px;
+    height: 35px;
+    position: relative;
+    left: 145px;
+    top: 110px;
+    font-size: 20px;
+    display: block;
+    margin: 5px;
+}
+#valor-retirar{
+    width: 390px;
+    height: 38px;
+    position: relative;
+    left: 590px;
+    top: -68px;
+    
+
+}
+#retirar{
+    width: 220px;
+    height: 35px;
+    position: relative;
+    left: 655px;
+    top: -58px;
+    font-size: 20px;
+    display: block;
+    margin: 5px;
+}
+.contador{
+    width: 15px;
+    all: unset;
+}
+.contador-final{
+    position: relative;
+    left: 80px;
+    width: 300px;
+    top: -15px;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+}
+.error{
+    position: relative;
+    top: -50px;
+    text-align: center;
+}
